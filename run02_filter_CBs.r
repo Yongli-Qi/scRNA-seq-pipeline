@@ -4,7 +4,7 @@ library(scCB2)
 setwd('/home/yq238/project/scRNA_seq/HTAN2')
 
 ##########################################
-         identify real cells
+#         identify real cells
 ##########################################
 
 input_dir <- "/home/yq238/project/scRNA_seq/HTAN2/00data"
@@ -27,7 +27,7 @@ for (dir in sub_dirs) {
 }
 
 #####################################################
-    filter seurat objects (CB2 and percent.mt 20)
+#    filter seurat objects (CB2 and percent.mt 20)
 #####################################################
 rdata_dir <- "/home/yq238/project/scRNA_seq/HTAN2/01seurat_objs"
 filtered_dir <- "/home/yq238/project/scRNA_seq/HTAN2/02seurat_objs_filtered"
